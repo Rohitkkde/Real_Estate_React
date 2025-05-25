@@ -52,7 +52,7 @@ function Projects() {
                 <div className='flex gap-8 transition-transfrom duration-500 ease-in-out' style={{ transform: `translateX(-${(currentIndex * 100)/cardToshow}%)` }}>
                     {projectsData.map((project,index)=>(
                         <div className='realtive flex-shrink-0 w-full sm:w-1/4' key={index}>
-                            <img src={project.image} alt={project.title} className='w-full mb-14 h-auto' />
+                            <img src={project.image}  alt={project.title} className='w-full mb-14 h-auto' /> 
                             <div className='relative  left-0 right-0 bottom-5 flex justify-center'>
                                 <div className=" inline-block bottom-10 bg-white w-3/4 px-4 py-2 shadow-md">
                                 <h2 className='text-xl font-semibold text-gray-800'>{project.title}
