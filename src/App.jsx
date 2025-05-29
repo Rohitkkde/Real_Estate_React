@@ -1,27 +1,27 @@
-import React from 'react'
+import React from 'react'  
 import Projects from './components/projects'
-import Header from './components/header'
+import Header from './components/header' 
 import About from './components/about'
 import Testimonials from './components/Testimonials'
 import Contact from './components/Contact'
-import { ToastContainer } from 'react-toastify';
+import { ToastContainer } from 'react-toastify';    
 import 'react-toastify/dist/ReactToastify.css';
-import Footer from './components/Footer'
+import Footer from './components/Footer'  
 const App = () => {
-  return (
-    <>
-      <div className='overflow-hidden w-full'>
+  return ( 
+    <>       
+      <div className='overflow-hidden w-full'> 
       <ToastContainer /> 
-        <Header />
+        <Header />     
       
       <About />
-      <Projects />
-      <Testimonials/>
+      <Projects />     
+      <Testimonials/>  
       <Contact/>
       <Footer/>
       </div>
       </>
   )
 }
-
-export default App
+                  
+export default App    
